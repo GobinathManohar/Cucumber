@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="16" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="169.552967">
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page" time="17.795441">
+<failure message="java.lang.AssertionError: expected [012345] but found [SWZG6Y2L8K]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "Paris" and Hotel "Hotel Cornice" and Room Type "Super Deluxe" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [SWZG6Y2L8K]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 2" time="10.251976">
+<failure message="java.lang.AssertionError: expected [012345] but found [THKN0J0PEK]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "Paris" and Hotel "Hotel Sunshine" and Room Type "Super Deluxe" and Number of Rooms"3" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [THKN0J0PEK]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 3" time="10.284081">
+<failure message="java.lang.AssertionError: expected [012345] but found [V36DJCU7BD]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "London" and Hotel "Hotel Cornice" and Room Type "Standard" and Number of Rooms"4" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [V36DJCU7BD]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 4" time="10.192626">
+<failure message="java.lang.AssertionError: expected [012345] but found [U1GJTKU6ZB]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "Paris" and Hotel "Hotel Cornice" and Room Type "Double" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [U1GJTKU6ZB]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 5" time="10.279065">
+<failure message="java.lang.AssertionError: expected [012345] but found [2U4783FRX0]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "New York" and Hotel "Hotel Cornice" and Room Type "Super Deluxe" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [2U4783FRX0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 6" time="9.885974">
+<failure message="java.lang.AssertionError: expected [012345] but found [19888E6YUX]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "Paris" and Hotel "Hotel Cornice" and Room Type "Double" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Hans" and LaseName"Zimmer" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [19888E6YUX]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 7" time="9.897502">
+<failure message="java.lang.AssertionError: expected [012345] but found [J95VNST2R6]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "New York" and Hotel "Hotel Cornice" and Room Type "Super Deluxe" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [J95VNST2R6]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 8" time="10.229923">
+<failure message="java.lang.AssertionError: expected [012345] but found [Z37D0PCVT8]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "London" and Hotel "Hotel Hervey" and Room Type "Super Deluxe" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [Z37D0PCVT8]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 9" time="9.912812">
+<failure message="java.lang.AssertionError: expected [012345] but found [RAI1NQT54T]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "Paris" and Hotel "Hotel Cornice" and Room Type "Double" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Christopher" and LaseName"Nolan" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [RAI1NQT54T]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 10" time="9.950366">
+<failure message="java.lang.AssertionError: expected [012345] but found [7G8703GH23]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "New York" and Hotel "Hotel Cornice" and Room Type "Super Deluxe" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [7G8703GH23]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 11" time="10.014426">
+<failure message="java.lang.AssertionError: expected [012345] but found [19168K9N28]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "London" and Hotel "Hotel Cornice" and Room Type "Super Deluxe" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [19168K9N28]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 12" time="10.252311">
+<failure message="java.lang.AssertionError: expected [012345] but found [BDKTWRZQU9]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "Paris" and Hotel "Hotel Creek" and Room Type "Double" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [BDKTWRZQU9]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 13" time="10.349914">
+<failure message="java.lang.AssertionError: expected [012345] but found [L0B0G77OIY]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "London" and Hotel "Hotel Cornice" and Room Type "Super Deluxe" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [L0B0G77OIY]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature1.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page" time="10.169832">
+<failure message="java.lang.AssertionError: expected [012345] but found [VO76HSCNE9]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature2.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "Paris" and Hotel "Hotel Cornice" and Room Type "Super Deluxe" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [VO76HSCNE9]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature2.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 2" time="10.024721">
+<failure message="java.lang.AssertionError: expected [012345] but found [02IJUBSE1V]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature2.feature:14)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "Paris" and Hotel "Hotel Sunshine" and Room Type "Super Deluxe" and Number of Rooms"3" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [02IJUBSE1V]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature2.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Validating Booking Function of adactin Application" name="Validating the booking module in adactin Hotels page 3" time="10.061997">
+<failure message="java.lang.AssertionError: expected [012345] but found [8689YJV55C]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)&#13;&#10;&#9;at ✽.User need to validate the booking number(src/main/resources/feature2.feature:32)&#13;&#10;"><![CDATA[Given User is on adactin login page.........................................passed
+When User entering the Username "gobinathm" and "@Gobi61995"................passed
+And User clicks on Login button.............................................passed
+When User enters Location "Paris" and Hotel "Hotel Cornice" and Room Type "Super Deluxe" and Number of Rooms"2" and CheckIn "13/05/2021" and CheckOut"15/05/2021" and Adult"1 - One" and Child "0 - None".passed
+And User clicks on Submit button............................................passed
+And User clicks on Radio button.............................................passed
+When User enters FirstName"Jack" and LaseName"Daniels" and Address"HongKong" and CreditCardNum"1234567898765432" and CreditCardType"VISA" and ExpMnth"January" and ExpYear"2022" and Cvv"234".passed
+And User clicks on BookNow button...........................................passed
+Then User need to validate the booking number...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected [012345] but found [8689YJV55C]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at org.stepdef.StepDefinition.user_need_to_validate_the_booking_number(StepDefinition.java:79)
+	at ✽.User need to validate the booking number(src/main/resources/feature2.feature:32)
+]]></failure>
+</testcase>
+</testsuite>
